@@ -4,10 +4,12 @@
 
 using namespace std;
 
+// constructor
 Message::Message(){
   message = "HELLO WORLD!";
 }
 
+// accessor
 string Message::get_message() const{
   return this->message;
 }
